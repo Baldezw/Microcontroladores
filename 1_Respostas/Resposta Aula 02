@@ -1,0 +1,8 @@
+1. Quais as diferenças entre os barramentos de dados e de endereços?
+Barramentos de dados: bidirecionais, tem como função transporte de dados.
+Barramentos de endereços: unidirecionais, tem como função indicar os endereços de memória
+
+2. Quais são as diferenças entre as memórias RAM e ROM?
+Memória RAM é mais volátil, mais potente, de mais fácil acesso, porém precisa de uma fonte, assim que o computador desliga a memória é apagada.
+Memória ROM não é volátil, não precisa de uma fonte, tem leitura mais lenta, porém é essencial, pois segura as aplicações báscias do dispositivo
+funcionando quando o computador está desligado.
