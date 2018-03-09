@@ -2,6 +2,7 @@
 É um computador construído para uma aplicação especifica, diferenciando-se de um computador pessoal que tem o seu propósito de uma maneira mais generalizada
 
 2. O que são sistemas microprocessados?
+São sistemas que desempenham as oprações lógicas com processamento de dados e controles, necessitando de outros componentes para as decisões.
 
 3. Apresente aplicações de sistemas embarcados:
 (a) para a indústria automotiva;
@@ -14,7 +15,8 @@ Micro-ondas, máquina de lavar roupa
 Controle e monitoramento de uma montadora
 
 4. Cite arquiteturas possíveis e as diferenças entre elas.
-Arquitetura de Von Neumann: barramento externo compartilhado por dados e endereços, baixo custo, limitado
-Arquitetura de Harvard: dois barramentos independentes, custo mais elevado, melhor desempenho
+Microprocessador: Necessitando de outros componentes para as decisões, microprocessador é um circuito integrado responsável pelas operações lógicas.
+Microcontrolador: Vátios componenetes em um sistema integrado, dedicados a uma função.
 
 5. Porque usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+Controlador com um ótimo custo-benefício em questão de complexidade de projeto e facilidade de uso. Sendo um dispositivo mais completo.
