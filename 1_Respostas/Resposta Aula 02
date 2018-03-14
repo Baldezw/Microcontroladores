@@ -6,3 +6,21 @@ Barramentos de endereços: unidirecionais, tem como função indicar os endereç
 Memória RAM é mais volátil, mais potente, de mais fácil acesso, porém precisa de uma fonte, assim que o computador desliga a memória é apagada.
 Memória ROM não é volátil, não precisa de uma fonte, tem leitura mais lenta, porém é essencial, pois segura as aplicações báscias do dispositivo
 funcionando quando o computador está desligado.
+
+3. De acordo com o código
+a) Na memória RAM, porque o número é escrito e lido para determinar a sua paridade.
+b) Na memória ROM, porque o programa só é lido para ser usado, ficando armazenado caso o computador desligue.
+
+4. Quais as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+Na arquitetura de Von Neumann, existe apenas 1 conjunto de barramentos sendo usados pelos dados e pelos endereços, deixando o projeto mais lento
+porém mais barato.
+Na arquitetura de Harvard, apresenta-se mais barramentos, fazendo com que o projeto seja mais sofisticado, sendo mais caro, porém capaz de operar
+mais de uma função ao mesmo tempo.
+
+5. Considere a variável inteira i, armazenando o valor 0x8051ABCD. Se i é armazenada na memória a partir do endereço 0x0200, como ficam este byte
+e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian.
+a) 0x000000AB
+b) 0x00000051
+
+6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
+Fazendo uma operação em paralelo usando uma memória auxiliar.
