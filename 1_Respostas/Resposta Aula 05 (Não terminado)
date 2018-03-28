@@ -12,8 +12,15 @@ d. Somente zerar o terceiro e o quarto bits menos significativo de R8.
 bic.w #12, R8
 
 e. Somente inverter o bit mais significativo de R9.
-xor.w #8, R9
+xor.w #56, R9
 
 f. Inverter o nibble mais significativo de R10, e setar o nibble menos significativo de R10.
-xor.w #12, R10
-bis.w #1, R10
+xor.w #240, R10
+bis.w #15, R10
+
+2."Traduza" o seguinte trecho de código em C para o assembly do MSP430:
+if (i>j) f = g + h + 10;
+else f = g - h - 10;
+
+comp R7, R8
+jne LABEL_2
