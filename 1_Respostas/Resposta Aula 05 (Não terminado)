@@ -22,5 +22,23 @@ bis.w #15, R10
 if (i>j) f = g + h + 10;
 else f = g - h - 10;
 
-comp R7, R8
-jne LABEL_2
+  cmp R7, R8
+  jl LABEL_1
+  mov.w #10, R11
+  sub.w R11, R6
+  sub.w R11, R5
+  mov.w R11, R4
+  jmp EXIT
+LABEL_1:
+  mov.w R#10, R11
+  add.w R11, R6
+  add.w R11, R5
+  mov.w R11, R4
+EXIT:
+
+
+3."Traduza" o seguinte trecho de código em C para o assembly do MSP430:
+while(save[i]!=k) i++
+
+LOOP:
+  mov.w 
